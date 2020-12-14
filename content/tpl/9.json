@@ -1,0 +1,20 @@
+{
+    "id": 9,
+    "uri": "https://localhost/rdmo/test/views/20201125_II-a_2-AF-RDMO_sen",
+    "uri_prefix": "https://localhost/rdmo/test",
+    "key": "20201125_II-a_2-AF-RDMO_sen",
+    "comment": "20201125_II-a_2-AF-RDMO_sen",
+    "available": true,
+    "catalogs": [],
+    "sites": [1],
+    "groups": [],
+    "template": "<TEMPLATE>",
+    "title_en": "20201125_II-a_2-AF-RDMO_sen",
+    "help_en": "",
+    "title_de": "20201125_II-a_2-AF-RDMO_sen",
+    "help_de": "",
+    "title_fr": "",
+    "help_fr": "",
+    "title_it": "",
+    "help_it": ""
+}

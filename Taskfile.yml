@@ -1,0 +1,17 @@
+version: '3'
+
+vars:
+    GOFILES:
+        sh: >-
+            find ./go -type f -mindepth 1 -maxdepth 1 -regex ".*\.go$" \
+                | grep -v "_test.go"  \
+                | tr '\n' ' '
+
+tasks:
+    default:
+        cmds:
+            - cmd: clear
+            - cmd: go run {{.GOFILES}}
+        # sources:
+        #     - "go/**/*.go"
+        #     - "html/*.html"
