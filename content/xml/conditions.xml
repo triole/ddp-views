@@ -4,7 +4,7 @@
         <uri_prefix>https://localhost/rdmo/test</uri_prefix>
         <key>dataset_links_yesno</key>
         <dc:comment/>
-        <source dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/ethics_committee_yesno"/>
+        <source dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/links_yesno"/>
         <relation>eq</relation>
         <target_text>1</target_text>
         <target_option/>
