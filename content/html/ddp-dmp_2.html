@@ -1,9 +1,18 @@
 {% load view_tags %}
 {% get_set 'project/dataset' as datasets %}
 
-<b>4.) Mittels welches Erhebungsinstruments werden die Datenerhoben? (Filterfrage)</b>
-<p>{% render_value_list 'project/dataset/data_collection/utility' %}</p>
+<h2>Erscheint nur bei Nachnutzung von urheberrechtlich geschützten Daten</h2>
+{% get_value 'ddp/reuse_copyrighted_yesno' as val %}
+{% if val.is_true %}
+    {% render_value_list 'ddp/reuse_copyrighted_scenario' %}
+{% endif %}
 
-<pre>
-{% httpget 'http://ddp-serv/20201125_II-a_2-AF-RDMO_sen.txt' %}
-</pre>
+<h2>Erscheint nur, wenn Frage 4 'Fragebogen' enthält</h2>
+{% get_values 'ddp/utility' as vals %}
+{% for val in vals %}
+    {% if 'Fragebogen' in val.value %}
+        <pre>
+            {% httpget 'http://ddp-serv/20201125_II-a_2-AF-RDMO_sen.txt' %}
+        </pre>
+    {% endif %}
+{% endfor %}

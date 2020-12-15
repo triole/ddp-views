@@ -332,7 +332,7 @@
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/ddp/links"/>
 		<questionset dc:uri="https://localhost/rdmo/test/questions/ddp/data_generation1/qs2"/>
-		<is_collection>False</is_collection>
+		<is_collection>True</is_collection>
 		<order>0</order>
 		<help lang="en"/>
 		<text lang="en"/>
@@ -359,7 +359,9 @@
 		<optionsets>
 			<optionset dc:uri="https://localhost/rdmo/test/options/data_links"/>
 		</optionsets>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="https://localhost/rdmo/test/conditions/dataset_links_yesno"/>
+		</conditions>
 	</question>
 	<section dc:uri="https://localhost/rdmo/test/questions/ddp/data_collection">
 		<uri_prefix>https://localhost/rdmo/test</uri_prefix>
@@ -847,7 +849,7 @@
 		<key>place</key>
 		<path>ddp/scope/place</path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/scope"/>
+		<attribute/>
 		<section dc:uri="https://localhost/rdmo/test/questions/ddp/scope"/>
 		<is_collection>False</is_collection>
 		<order>0</order>
