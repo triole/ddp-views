@@ -1,0 +1,9 @@
+{% load view_tags %}
+{% get_set 'project/dataset' as datasets %}
+
+<b>4.) Mittels welches Erhebungsinstruments werden die Datenerhoben? (Filterfrage)</b>
+<p>{% render_value_list 'project/dataset/data_collection/utility' %}</p>
+
+<pre>
+{% httpget 'http://ddp-serv/20201125_II-a_2-AF-RDMO_sen.txt' %}
+</pre>
