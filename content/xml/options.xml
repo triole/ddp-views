@@ -1,0 +1,1056 @@
+<?xml version="1.0" ?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <optionset dc:uri="https://localhost/rdmo/test/options/creator">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>creator</key>
+        <dc:comment/>
+        <order>0</order>
+        <provider_key/>
+        <conditions/>
+    </optionset>
+    <option dc:uri="https://localhost/rdmo/test/options/creator/sheets_tests">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>sheets_tests</key>
+        <path>creator/sheets_tests</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/creator"/>
+        <order>0</order>
+        <text lang="en"/>
+        <text lang="de">durch die Befragten (z.B. Selbstausfüllerbögen, Tests etc.)</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/creator/project_members">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>project_members</key>
+        <path>creator/project_members</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/creator"/>
+        <order>1</order>
+        <text lang="en"/>
+        <text lang="de">durch Projektbeteiligte</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/creator/project_institution">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>project_institution</key>
+        <path>creator/project_institution</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/creator"/>
+        <order>2</order>
+        <text lang="en"/>
+        <text lang="de">durch andere Bereiche / Teile einer beteiligten Institution</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/creator/third_party">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>third_party</key>
+        <path>creator/third_party</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/creator"/>
+        <order>3</order>
+        <text lang="en"/>
+        <text lang="de">durch Dritte, wie z. B. ein Erhebungsinstitut oder über Werksverträge, etwa für Muttersprachler*innen</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <optionset dc:uri="https://localhost/rdmo/test/options/data_links">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>data_links</key>
+        <dc:comment/>
+        <order>0</order>
+        <provider_key/>
+        <conditions/>
+    </optionset>
+    <option dc:uri="https://localhost/rdmo/test/options/data_links/actors">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>actors</key>
+        <path>data_links/actors</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/data_links"/>
+        <order>0</order>
+        <text lang="en"/>
+        <text lang="de">Daten unterschiedlicher Befragtengruppen (Multi-Actor-Design, Cluster- bzw. Klumpenstichproben etc.)</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/data_links/collection_dates">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>collection_dates</key>
+        <path>data_links/collection_dates</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/data_links"/>
+        <order>0</order>
+        <text lang="en"/>
+        <text lang="de">Daten unterschiedlicher Erhebungszeitpunkte</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/data_links/method">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>method</key>
+        <path>data_links/method</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/data_links"/>
+        <order>0</order>
+        <text lang="en"/>
+        <text lang="de">Daten aus unterschiedlichen Erhebungstypen (mixed method), wie z. B. (Leistungstests und sozio-demographische Angaben, Umfragedaten und Transkripte etc.)</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <optionset dc:uri="https://localhost/rdmo/test/options/data_types1">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>data_types1</key>
+        <dc:comment/>
+        <order>0</order>
+        <provider_key/>
+        <conditions/>
+    </optionset>
+    <option dc:uri="https://localhost/rdmo/test/options/data_types1/images">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>images</key>
+        <path>data_types1/images</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/data_types1"/>
+        <order>0</order>
+        <text lang="en"/>
+        <text lang="de">Logos, Bilder bzw. Graphiken</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/data_types1/items">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>items</key>
+        <path>data_types1/items</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/data_types1"/>
+        <order>0</order>
+        <text lang="en"/>
+        <text lang="de">Fragen, Fragebögen, Skalen bzw. Items</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/data_types1/secondary">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>secondary</key>
+        <path>data_types1/secondary</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/data_types1"/>
+        <order>0</order>
+        <text lang="en"/>
+        <text lang="de">Daten / Forschungsdaten / Sekundärdaten</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/data_types1/teaching_resources">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>teaching_resources</key>
+        <path>data_types1/teaching_resources</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/data_types1"/>
+        <order>0</order>
+        <text lang="en"/>
+        <text lang="de">Unterrichtsmaterialen, wie Lehrbücher etc.</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <optionset dc:uri="https://localhost/rdmo/test/options/data_types2">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>data_types2</key>
+        <dc:comment/>
+        <order>0</order>
+        <provider_key/>
+        <conditions/>
+    </optionset>
+    <option dc:uri="https://localhost/rdmo/test/options/data_types2/audio">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>audio</key>
+        <path>data_types2/audio</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/data_types2"/>
+        <order>0</order>
+        <text lang="en"/>
+        <text lang="de">Audiodaten</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/data_types2/images">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>images</key>
+        <path>data_types2/images</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/data_types2"/>
+        <order>0</order>
+        <text lang="en"/>
+        <text lang="de">Bilder / Fotographien</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/data_types2/matrix">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>matrix</key>
+        <path>data_types2/matrix</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/data_types2"/>
+        <order>0</order>
+        <text lang="en"/>
+        <text lang="de">Datenmatrix</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/data_types2/text">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>text</key>
+        <path>data_types2/text</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/data_types2"/>
+        <order>0</order>
+        <text lang="en"/>
+        <text lang="de">Textdaten</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/data_types2/video">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>video</key>
+        <path>data_types2/video</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/data_types2"/>
+        <order>0</order>
+        <text lang="en"/>
+        <text lang="de">Videodaten</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <optionset dc:uri="https://localhost/rdmo/test/options/ethical_aspects">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>ethical_aspects</key>
+        <dc:comment/>
+        <order>0</order>
+        <provider_key/>
+        <conditions/>
+    </optionset>
+    <option dc:uri="https://localhost/rdmo/test/options/ethical_aspects/deception">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>deception</key>
+        <path>ethical_aspects/deception</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/ethical_aspects"/>
+        <order>0</order>
+        <text lang="en"/>
+        <text lang="de">Täuschung</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/ethical_aspects/patients">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>patients</key>
+        <path>ethical_aspects/patients</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/ethical_aspects"/>
+        <order>1</order>
+        <text lang="en"/>
+        <text lang="de">Untersuchung von Patienten oder Patientinnen</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/ethical_aspects/protection_requirement">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>protection_requirement</key>
+        <path>ethical_aspects/protection_requirement</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/ethical_aspects"/>
+        <order>2</order>
+        <text lang="en"/>
+        <text lang="de">Erhebung von Personen mit besonderem Schutzbedürfnis</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/ethical_aspects/psychical_pressure">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>psychical_pressure</key>
+        <path>ethical_aspects/psychical_pressure</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/ethical_aspects"/>
+        <order>3</order>
+        <text lang="en"/>
+        <text lang="de">Besondere psychische Belastung in der Erhebungssituation</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/ethical_aspects/physical_pressure">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>physical_pressure</key>
+        <path>ethical_aspects/physical_pressure</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/ethical_aspects"/>
+        <order>4</order>
+        <text lang="en"/>
+        <text lang="de">Besondere körperliche Belastung in der Erhebungssituation</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <optionset dc:uri="https://localhost/rdmo/test/options/federal_state">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>federal_state</key>
+        <dc:comment/>
+        <order>0</order>
+        <provider_key/>
+        <conditions/>
+    </optionset>
+    <option dc:uri="https://localhost/rdmo/test/options/federal_state/bw">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>bw</key>
+        <path>federal_state/bw</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/federal_state"/>
+        <order>0</order>
+        <text lang="en"/>
+        <text lang="de">Baden-Württemberg</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/federal_state/bavaria">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>bavaria</key>
+        <path>federal_state/bavaria</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/federal_state"/>
+        <order>1</order>
+        <text lang="en"/>
+        <text lang="de">Bayern</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/federal_state/berlin">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>berlin</key>
+        <path>federal_state/berlin</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/federal_state"/>
+        <order>2</order>
+        <text lang="en"/>
+        <text lang="de">Berlin</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/federal_state/brandenburg">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>brandenburg</key>
+        <path>federal_state/brandenburg</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/federal_state"/>
+        <order>3</order>
+        <text lang="en"/>
+        <text lang="de">Brandenburg</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/federal_state/bremen">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>bremen</key>
+        <path>federal_state/bremen</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/federal_state"/>
+        <order>4</order>
+        <text lang="en"/>
+        <text lang="de">Bremen</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/federal_state/hamburg">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>hamburg</key>
+        <path>federal_state/hamburg</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/federal_state"/>
+        <order>5</order>
+        <text lang="en"/>
+        <text lang="de">Hamburg</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/federal_state/hessen">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>hessen</key>
+        <path>federal_state/hessen</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/federal_state"/>
+        <order>6</order>
+        <text lang="en"/>
+        <text lang="de">Hessen</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/federal_state/mv">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>mv</key>
+        <path>federal_state/mv</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/federal_state"/>
+        <order>8</order>
+        <text lang="en"/>
+        <text lang="de">Mecklenburg-Vorpommern</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/federal_state/lower_saxony">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>lower_saxony</key>
+        <path>federal_state/lower_saxony</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/federal_state"/>
+        <order>9</order>
+        <text lang="en"/>
+        <text lang="de">Niedersachsen</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/federal_state/nrw">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>nrw</key>
+        <path>federal_state/nrw</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/federal_state"/>
+        <order>10</order>
+        <text lang="en"/>
+        <text lang="de">Nordrhein-Westfalen</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/federal_state/rp">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>rp</key>
+        <path>federal_state/rp</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/federal_state"/>
+        <order>11</order>
+        <text lang="en"/>
+        <text lang="de">Rheinland-Pfalz</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/federal_state/saarland">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>saarland</key>
+        <path>federal_state/saarland</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/federal_state"/>
+        <order>12</order>
+        <text lang="en"/>
+        <text lang="de">Saarland</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/federal_state/saxony">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>saxony</key>
+        <path>federal_state/saxony</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/federal_state"/>
+        <order>13</order>
+        <text lang="en"/>
+        <text lang="de">Sachsen</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/federal_state/sa">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>sa</key>
+        <path>federal_state/sa</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/federal_state"/>
+        <order>14</order>
+        <text lang="en"/>
+        <text lang="de">Sachsen-Anhalt</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/federal_state/sh">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>sh</key>
+        <path>federal_state/sh</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/federal_state"/>
+        <order>15</order>
+        <text lang="en"/>
+        <text lang="de">Schleswig-Holstein</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/federal_state/thuringia">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>thuringia</key>
+        <path>federal_state/thuringia</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/federal_state"/>
+        <order>16</order>
+        <text lang="en"/>
+        <text lang="de">Thüringen</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <optionset dc:uri="https://localhost/rdmo/test/options/frequency">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>frequency</key>
+        <dc:comment/>
+        <order>0</order>
+        <provider_key/>
+        <conditions/>
+    </optionset>
+    <option dc:uri="https://localhost/rdmo/test/options/frequency/single">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>single</key>
+        <path>frequency/single</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/frequency"/>
+        <order>0</order>
+        <text lang="en"/>
+        <text lang="de">eine einmalige Erhebung</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/frequency/repeat_same">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>repeat_same</key>
+        <path>frequency/repeat_same</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/frequency"/>
+        <order>1</order>
+        <text lang="en"/>
+        <text lang="de">eine wiederholte Erhebung bei den gleichen Befragte</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/frequency/repeat_different">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>repeat_different</key>
+        <path>frequency/repeat_different</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/frequency"/>
+        <order>2</order>
+        <text lang="en"/>
+        <text lang="de">eine wiederholte Erhebung bei unterschiedlichen Befragten</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <optionset dc:uri="https://localhost/rdmo/test/options/institution">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>institution</key>
+        <dc:comment/>
+        <order>0</order>
+        <provider_key/>
+        <conditions/>
+    </optionset>
+    <option dc:uri="https://localhost/rdmo/test/options/institution/kita">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>kita</key>
+        <path>institution/kita</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/institution"/>
+        <order>0</order>
+        <text lang="en"/>
+        <text lang="de">Kindertageseinrichtung, Kinderkrippe</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/institution/school">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>school</key>
+        <path>institution/school</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/institution"/>
+        <order>1</order>
+        <text lang="en"/>
+        <text lang="de">Schulen</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/institution/authority">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>authority</key>
+        <path>institution/authority</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/institution"/>
+        <order>2</order>
+        <text lang="en"/>
+        <text lang="de">Ämter</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/institution/institutions_of_adult_education">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>institutions_of_adult_education</key>
+        <path>institution/institutions_of_adult_education</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/institution"/>
+        <order>3</order>
+        <text lang="en"/>
+        <text lang="de">Institutionen der Erwachsenenbildung</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/institution/universities">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>universities</key>
+        <path>institution/universities</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/institution"/>
+        <order>4</order>
+        <text lang="en"/>
+        <text lang="de">Hochschulen</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/institution/museums_etc">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>museums_etc</key>
+        <path>institution/museums_etc</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/institution"/>
+        <order>5</order>
+        <text lang="en"/>
+        <text lang="de">Museen, Volkhochschulen etc.</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/institution/private_training_providers">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>private_training_providers</key>
+        <path>institution/private_training_providers</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/institution"/>
+        <order>6</order>
+        <text lang="en"/>
+        <text lang="de">private Weiterbildungseinrichtungen</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/institution/private_environment">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>private_environment</key>
+        <path>institution/private_environment</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/institution"/>
+        <order>7</order>
+        <text lang="en"/>
+        <text lang="de">privates Umfeld der Befragten</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <optionset dc:uri="https://localhost/rdmo/test/options/sampling_procedure">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>sampling_procedure</key>
+        <dc:comment/>
+        <order>0</order>
+        <provider_key/>
+        <conditions/>
+    </optionset>
+    <option dc:uri="https://localhost/rdmo/test/options/sampling_procedure/simple">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>simple</key>
+        <path>sampling_procedure/simple</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/sampling_procedure"/>
+        <order>0</order>
+        <text lang="en"/>
+        <text lang="de">einfache Zufallsstichprobe</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/sampling_procedure/systematic">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>systematic</key>
+        <path>sampling_procedure/systematic</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/sampling_procedure"/>
+        <order>1</order>
+        <text lang="en"/>
+        <text lang="de">systematische Zufallsstichprobe</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/sampling_procedure/layered">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>layered</key>
+        <path>sampling_procedure/layered</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/sampling_procedure"/>
+        <order>2</order>
+        <text lang="en"/>
+        <text lang="de">geschichtete Zufalssstichprobe</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/sampling_procedure/cluster">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>cluster</key>
+        <path>sampling_procedure/cluster</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/sampling_procedure"/>
+        <order>3</order>
+        <text lang="en"/>
+        <text lang="de">Cluster- oder Klumpenstichprobe</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/sampling_procedure/multi_stage">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>multi_stage</key>
+        <path>sampling_procedure/multi_stage</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/sampling_procedure"/>
+        <order>4</order>
+        <text lang="en"/>
+        <text lang="de">zwei- und mehrstufige Stichprobenverfahren</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/sampling_procedure/opportunity_sample">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>opportunity_sample</key>
+        <path>sampling_procedure/opportunity_sample</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/sampling_procedure"/>
+        <order>5</order>
+        <text lang="en"/>
+        <text lang="de">Gelegenheitsstichprobe</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/sampling_procedure/quota_sample">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>quota_sample</key>
+        <path>sampling_procedure/quota_sample</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/sampling_procedure"/>
+        <order>6</order>
+        <text lang="en"/>
+        <text lang="de">Quotenstichprobe</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <optionset dc:uri="https://localhost/rdmo/test/options/study_population">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>study_population</key>
+        <dc:comment/>
+        <order>0</order>
+        <provider_key/>
+        <conditions/>
+    </optionset>
+    <option dc:uri="https://localhost/rdmo/test/options/study_population/vulnerable_persons">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>vulnerable_persons</key>
+        <path>study_population/vulnerable_persons</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/study_population"/>
+        <order>0</order>
+        <text lang="en"/>
+        <text lang="de">vulnerable Personen</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/study_population/under_13y">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>under_13y</key>
+        <path>study_population/under_13y</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/study_population"/>
+        <order>1</order>
+        <text lang="en"/>
+        <text lang="de">Schüler*innen / Kinder unter 13 Jahren</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/study_population/under_16y">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>under_16y</key>
+        <path>study_population/under_16y</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/study_population"/>
+        <order>2</order>
+        <text lang="en"/>
+        <text lang="de">Schüler*innen / Kinder unter 16 Jahren</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/study_population/over_13y16y">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>over_13y16y</key>
+        <path>study_population/over_13y16y</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/study_population"/>
+        <order>3</order>
+        <text lang="en"/>
+        <text lang="de">Personen über 13/16 Jahren</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/study_population/employees">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>employees</key>
+        <path>study_population/employees</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/study_population"/>
+        <order>4</order>
+        <text lang="en"/>
+        <text lang="de">Beamte*innen und Angestellte im öffentlichen Dienst (z. B. Lehrkräfte)</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <optionset dc:uri="https://localhost/rdmo/test/options/utility">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>utility</key>
+        <dc:comment/>
+        <order>0</order>
+        <provider_key/>
+        <conditions/>
+    </optionset>
+    <option dc:uri="https://localhost/rdmo/test/options/utility/experiment">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>experiment</key>
+        <path>utility/experiment</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/utility"/>
+        <order>0</order>
+        <text lang="en"/>
+        <text lang="de">(quasi-)experimentelles Setting</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/utility/obervation">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>obervation</key>
+        <path>utility/obervation</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/utility"/>
+        <order>0</order>
+        <text lang="en"/>
+        <text lang="de">Beobachtungsdokumentation</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/utility/questioning">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>questioning</key>
+        <path>utility/questioning</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/utility"/>
+        <order>0</order>
+        <text lang="en"/>
+        <text lang="de">Fragebogen (quantitativ / qualitativ / zur Netzwerkanalyse)</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/utility/sheet">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>sheet</key>
+        <path>utility/sheet</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/utility"/>
+        <order>0</order>
+        <text lang="en"/>
+        <text lang="de">(Leistungs-)Testbogen</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <optionset dc:uri="https://localhost/rdmo/test/options/utility_quality">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>utility_quality</key>
+        <dc:comment/>
+        <order>0</order>
+        <provider_key/>
+        <conditions/>
+    </optionset>
+    <option dc:uri="https://localhost/rdmo/test/options/utility_quality/documents">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>documents</key>
+        <path>utility_quality/documents</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/utility_quality"/>
+        <order>0</order>
+        <text lang="en"/>
+        <text lang="de">Sammlung von feldspezifischen Dokumenten und Artefakten (wie z. B. Schulbuchseiten, Seite von Schulheften, Arbeitsblätter, Skizze von Klassenräumen, Sitzpläne etc.)</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/utility_quality/observation">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>observation</key>
+        <path>utility_quality/observation</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/utility_quality"/>
+        <order>0</order>
+        <text lang="en"/>
+        <text lang="de">(teilnehmende) Beobachtung</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/utility_quality/photography">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>photography</key>
+        <path>utility_quality/photography</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/utility_quality"/>
+        <order>0</order>
+        <text lang="en"/>
+        <text lang="de">Fotographien (z.B. von Unterrichtsmaterialien)</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/utility_quality/questioning">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>questioning</key>
+        <path>utility_quality/questioning</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/utility_quality"/>
+        <order>0</order>
+        <text lang="en"/>
+        <text lang="de">qualitative Befragung (Einzel- / Gruppendiskussionen mit Hilfe von z. B. Audio- oder Videoaufnahmen)</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/utility_quality/sociometry">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>sociometry</key>
+        <path>utility_quality/sociometry</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/utility_quality"/>
+        <order>0</order>
+        <text lang="en"/>
+        <text lang="de">Soziometrie / Netzwerkanalyse</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <optionset dc:uri="https://localhost/rdmo/test/options/utility_quantity">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>utility_quantity</key>
+        <dc:comment/>
+        <order>0</order>
+        <provider_key/>
+        <conditions/>
+    </optionset>
+    <option dc:uri="https://localhost/rdmo/test/options/utility_quantity/offline">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>offline</key>
+        <path>utility_quantity/offline</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/utility_quantity"/>
+        <order>0</order>
+        <text lang="en"/>
+        <text lang="de">computerunterstützt (offline)</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/utility_quantity/online">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>online</key>
+        <path>utility_quantity/online</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/utility_quantity"/>
+        <order>0</order>
+        <text lang="en"/>
+        <text lang="de">online</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/utility_quantity/paper">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>paper</key>
+        <path>utility_quantity/paper</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/utility_quantity"/>
+        <order>0</order>
+        <text lang="en"/>
+        <text lang="de">Paper &amp; Pencil</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://localhost/rdmo/test/options/utility_quantity/telephone">
+        <uri_prefix>https://localhost/rdmo/test</uri_prefix>
+        <key>telephone</key>
+        <path>utility_quantity/telephone</path>
+        <dc:comment/>
+        <optionset dc:uri="https://localhost/rdmo/test/options/utility_quantity"/>
+        <order>0</order>
+        <text lang="en"/>
+        <text lang="de">per Telefon</text>
+        <text lang="fr"/>
+        <text lang="it"/>
+        <additional_input>False</additional_input>
+    </option>
+</rdmo>
