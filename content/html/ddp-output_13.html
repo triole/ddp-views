@@ -1,0 +1,7 @@
+{% load view_tags %}
+{% get_set 'project/dataset' as datasets %}
+
+
+<h2>Mindestanforderung II.a) Dokumentation der Daten<br>II. Themenbereich: Dokumentation / Qualität</h2>
+
+{% httpget 'http://ddp-serv/snip1.txt' %}

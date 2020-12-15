@@ -12,6 +12,12 @@ tasks:
         cmds:
             - cmd: clear
             - cmd: go run {{.GOFILES}}
-        # sources:
-        #     - "go/**/*.go"
-        #     - "html/*.html"
+            - cmd: /home/ole/rolling/sh/shelltools/reload-browser
+        sources:
+            - "go/**/*.go"
+            - "content/html/*.html"
+            - "content/tpl/*.json"
+
+    srv:
+        cmds:
+            - cmd: cd docker/content-server && sudo docker-compose up -d

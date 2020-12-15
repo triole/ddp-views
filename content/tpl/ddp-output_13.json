@@ -1,0 +1,20 @@
+{
+    "id": 13,
+    "uri": "https://localhost/rdmo/test/views/ddp",
+    "uri_prefix": "https://localhost/rdmo/test",
+    "key": "ddp_dmp",
+    "comment": "DDP DMP",
+    "available": true,
+    "catalogs": [],
+    "sites": [1],
+    "groups": [],
+    "template": "<TEMPLATE>",
+    "title_en": "DDP DMP",
+    "help_en": "",
+    "title_de": "DDP DMP",
+    "help_de": "DDP Datenmanagementplan",
+    "title_fr": "",
+    "help_fr": "",
+    "title_it": "",
+    "help_it": ""
+}

@@ -18,6 +18,9 @@ func main() {
 		html := readFile(file.HTML)
 		tpl["template"] = html
 
+		// save to file to be able to use them from shell
+		writeJSONToFile(file.Tmp, tpl)
+
 		d, err := json.Marshal(tpl)
 		check(err)
 		req.Put(no, d)

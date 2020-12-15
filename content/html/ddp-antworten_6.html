@@ -1,0 +1,110 @@
+{% load view_tags %}
+{% get_set 'project/dataset' as datasets %}
+
+<h1>Modul I</h1>
+
+<p>
+    <b>1.a) Werden in ihrem Forschungsprojekt eigene Daten erhoben?</b>
+    <p>{% render_value 'project/dataset/usage_description' %}</p>
+</p>
+
+<p>
+    <b>1.b) Werden in ihrem Forschungsprojekt urheberrechtlich geschützte Daten anderer nachgenutzt?</b>
+    <p>{% render_value 'project/dataset/reuse_copyrighted_yesno' %}</p>
+</p>
+
+<p>
+    <b>1.bb) Wenn Sie urheberechtlich geschützte Daten bzw. Materialien anderer nachnutzen, handelt es sich dabei um...</b>
+    <p>{% render_value_list 'project/dataset/reuse_copyrighted_scenario' %}</p>
+</p>
+
+<h1>Modul II: Datenerzeugung</h1>
+
+<p>
+    <b>2) Welche Art von Daten wird in ihrem Forschungsprojekt erhoben bzw. verwendet (Datentyp)?</b>
+    <p>{% render_value_list 'project/dataset/scenario' %}</p>
+</p>
+
+<p>
+    <b>3.) Werden im Rahmen Ihres Forschungsvorhabens unterschiedlichen Daten miteinander verknüpft?</b>
+    <p>{% render_value 'project/dataset/links_yesno' %}</p>
+</p>
+
+{% get_value 'project/dataset/links_yesno' as val %}
+{% if val.is_true %}
+<p>
+    <b> 3.a) Welche Art von Verknüpfung steht bei Ihnen an?</b>
+    <p>{% render_value_list 'project/dataset/links' %}</p>
+</p>
+{% endif %}
+
+<p>
+    <b>4.) Mittels welches Erhebungsinstruments werden die Datenerhoben? (Filterfrage)</b>
+    <p>{% render_value_list 'project/dataset/data_collection/utility' %}</p>
+</p>
+
+<p>
+    <b>4.a) Mittels welcher Methodik werden die Daten erhoben?</b>
+    <p>{% render_value_list 'project/dataset/data_collection/method' %}</p>
+</p>
+
+<p>
+    <b>5.) Handelt es sich dabei um...</b>
+    {% render_value_list 'project/dataset/data_collection/frequency' %}
+</p>
+
+<p>
+    <b>6.) Durch wen werden die Daten erhoben?</b>
+    {% render_value_list 'project/dataset/creator' %}
+</p>
+
+<p>
+    <b>7.) Bestehen im Rahmen Ihrer Datenerhebung Aspekte, die der Überprüfung durch eine Ethikkommission bedürfen?</b>
+    {% render_value 'project/legal_aspects/official_approval/ethics_committee_yesno' %}
+</p>
+
+{% get_value 'project/legal_aspects/official_approval/ethics_committee_yesno' as val %}
+{% if val.is_true %}
+<p>
+    <b>7.a) Worum handelt es sich dabei?</b>
+    {% render_value_list 'project/legal_aspects/official_approval/ethics_committee' %}
+</p>
+{% endif %}
+
+<h1>Dateninhalt</h1>
+<p>
+    <b>8.) Werden in Ihrem Forschungsprojekt sensible bzw. datenschutzrechtlich relevante Daten im Sinne des Art.9 DSGVO verarbeitet?</b>
+    {% render_value 'project/dataset/sensitive_data' %}
+</p>
+
+<h1>Methode</h1>
+<p>
+    <b>9.) Welche der folgenden Personengruppen gehören zu Ihrer Untersuchungspopulation?</b>
+    {% render_value_list 'project/dataset/study_population' %}
+</p>
+
+<p>
+    <b>10. Welches Stichprobenverfahren nutzen Sie in Ihrem Forschungsprojekt</b>
+    {% render_value_list 'project/dataset/sampling_procedure' %}
+</p>
+
+<h1>Scope</h1>
+<p>
+    <b>11.) Wo planen Sie im Rahmen Ihres Forschungsprojekts die Datenerhebung durchzuführen? (Filterfrage)</b>
+    {% render_value_list 'project/dataset/scope/institution' %}
+</p>
+
+<p>
+    <b>12.) In welchem Bundesland werden in Ihrem Forschungsprojekt Daten erhoben? (Filterfrage)</b>
+    {% render_value_list 'project/dataset/scope/federal_states' %}
+</p>
+
+<p>
+    <b>12.a) Planen Sie eine Vergleich zwischen den Bundesländern?</b>
+    {% render_value 'project/dataset/scope/federal_state_comparison' %}
+</p>
+
+<p>
+    <b>13. Bitte zitieren Sie alle archivierten Daten entsprechend der Vorgaben des persistenten Identifikators, Repositoriums, Datenarchives o.ä.</b>
+    {% render_value_list 'project/dataset/scope/archived_data' %}
+</p>
