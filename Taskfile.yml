@@ -6,18 +6,35 @@ vars:
             find ./go -type f -mindepth 1 -maxdepth 1 -regex ".*\.go$" \
                 | grep -v "_test.go"  \
                 | tr '\n' ' '
+    CURDIR:
+        sh: pwd
+
+    DDPAPPDIR:
+        sh: echo $(pwd  | grep -Po ".*(?=\/)")/ddp-app
 
 tasks:
     default:
         cmds:
-            - cmd: clear
-            - cmd: go run {{.GOFILES}}
-            - cmd: /home/ole/rolling/sh/shelltools/reload-browser
+            - task: push
+            - task: copy
+
+    push:
+        desc: push views into rdmo
         sources:
-            - "go/**/*.go"
-            - "content/html/*.html"
-            - "content/tpl/*.json"
+            - go/*.go
+            - go/**/*.go
+            - content/**/*
+        method: checksum
+        cmds:
+            - cmd: GOPATH={{.CURDIR}} go run {{.GOFILES}}
+            - cmd: ${HOME}/rolling/sh/shelltools/reload-browser
+
+    copy:
+        desc: copy ddp app dir to rdmo docker
+        cmds:
+            - cmd: docker cp {{.DDPAPPDIR}} rdmo:/home/rdmo/
 
     srv:
+        desc: run local content server
         cmds:
             - cmd: cd docker/content-server && sudo docker-compose up -d

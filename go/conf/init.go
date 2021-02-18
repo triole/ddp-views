@@ -4,7 +4,6 @@ import (
 	"encoding/json"
 	"fmt"
 	"olibs/rx"
-	"olibs/syslib"
 	"os"
 	"path"
 	"strings"
@@ -57,7 +56,7 @@ func Init() (conf Conf) {
 
 func (c Conf) detectFiles() (ff tFiles) {
 	ff = tFiles{}
-	for _, tpl := range syslib.Find(c.Dirs.Tpl, ".*", "f", true) {
+	for _, tpl := range find(c.Dirs.Tpl, ".*", "f") {
 		no := strings.Split(rx.Find("[0-9]+.json$", tpl), ".")[0]
 		html := strings.Replace(
 			strings.Replace(tpl, ".json", ".html", -1),

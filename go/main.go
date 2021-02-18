@@ -3,8 +3,8 @@ package main
 import (
 	"encoding/json"
 
-	"./conf"
-	"./req"
+	"ddpviews/conf"
+	"ddpviews/req"
 )
 
 var ()

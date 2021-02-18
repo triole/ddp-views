@@ -1,7 +1,7 @@
 package req
 
 import (
-	"../conf"
+	"ddpviews/conf"
 )
 
 // Req holds req package information and is exported
