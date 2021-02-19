@@ -16,7 +16,6 @@ tasks:
     default:
         cmds:
             - task: push
-            - task: copy
 
     push:
         desc: push views into rdmo
@@ -28,13 +27,3 @@ tasks:
         cmds:
             - cmd: GOPATH={{.CURDIR}} go run {{.GOFILES}}
             - cmd: ${HOME}/rolling/sh/shelltools/reload-browser
-
-    copy:
-        desc: copy ddp app dir to rdmo docker
-        cmds:
-            - cmd: docker cp {{.DDPAPPDIR}} rdmo:/home/rdmo/
-
-    srv:
-        desc: run local content server
-        cmds:
-            - cmd: cd docker/content-server && sudo docker-compose up -d
