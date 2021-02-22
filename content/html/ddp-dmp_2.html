@@ -2,6 +2,12 @@
 {% load ddp_view_tags %}
 {% get_set 'project/dataset' as datasets %}
 
+{% get 'mindestanforderungen_2a' %}
+
+
+=============================================================================
+
+
 <h2>Erscheint nur bei Nachnutzung von urheberrechtlich geschützten Daten</h2>
 {% get_value 'ddp/reuse_copyrighted_yesno' as val %}
 {% if val.is_true %}
@@ -13,7 +19,7 @@
 {% for val in vals %}
     {% if 'Fragebogen' in val.value %}
         <pre>
-            {% httpget 'http://ddp-serv/20201125_II-a_2-AF-RDMO_sen.txt' %}
+            {% get 'mindestanforderungen_2aaaa' %}
         </pre>
     {% endif %}
 {% endfor %}
