@@ -2,24 +2,4 @@
 {% load ddp_view_tags %}
 {% get_set 'project/dataset' as datasets %}
 
-{% get 'mindestanforderungen_2a' %}
-
-
-=============================================================================
-
-
-<h2>Erscheint nur bei Nachnutzung von urheberrechtlich geschützten Daten</h2>
-{% get_value 'ddp/reuse_copyrighted_yesno' as val %}
-{% if val.is_true %}
-    {% render_value_list 'ddp/reuse_copyrighted_scenario' %}
-{% endif %}
-
-<h2>Erscheint nur, wenn Frage 4 'Fragebogen' enthält</h2>
-{% get_values 'ddp/utility' as vals %}
-{% for val in vals %}
-    {% if 'Fragebogen' in val.value %}
-        <pre>
-            {% get 'mindestanforderungen_2aaaa' %}
-        </pre>
-    {% endif %}
-{% endfor %}
+{% get '/module/modul_3a/iii-a_1-ma_sen' %}

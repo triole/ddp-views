@@ -23,7 +23,7 @@ tasks:
             - go/*.go
             - go/**/*.go
             - content/**/*
-        method: checksum
+        method: timestamp
         cmds:
             - cmd: GOPATH={{.CURDIR}} go run {{.GOFILES}}
             - cmd: ${HOME}/rolling/sh/shelltools/reload-browser
