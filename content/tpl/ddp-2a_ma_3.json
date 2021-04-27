@@ -1,0 +1,20 @@
+{
+    "id": 103,
+    "uri": "https://localhost/rdmo/2a_ma/views/ddp",
+    "uri_prefix": "https://localhost/rdmo/2a_ma",
+    "key": "ddp_dmp",
+    "comment": "DDP Module 2a MA",
+    "available": true,
+    "catalogs": [],
+    "sites": [1],
+    "groups": [],
+    "template": "<TEMPLATE>",
+    "title_en": "DDP DMP",
+    "help_en": "",
+    "title_de": "DDP Module 2a MA",
+    "help_de": "DDP Module 2a MA",
+    "title_fr": "",
+    "help_fr": "",
+    "title_it": "",
+    "help_it": ""
+}
