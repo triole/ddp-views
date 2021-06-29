@@ -1,11 +1,6 @@
 version: '3'
 
 vars:
-    GOFILES:
-        sh: >-
-            find ./go -type f -mindepth 1 -maxdepth 1 -regex ".*\.go$" \
-                | grep -v "_test.go"  \
-                | tr '\n' ' '
     CURDIR:
         sh: pwd
 
@@ -20,10 +15,9 @@ tasks:
     push:
         desc: push views into rdmo
         sources:
-            - go/*.go
-            - go/**/*.go
-            - content/**/*
+            - content/*
+            - py/*
         method: timestamp
         cmds:
-            - cmd: GOPATH={{.CURDIR}} go run {{.GOFILES}}
+            - cmd: python3 py/main.py
             - cmd: ${HOME}/rolling/sh/shelltools/reload-browser
