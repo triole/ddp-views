@@ -1,2 +1,6 @@
-base_url = "http://localhost:8280/api/v1/views/views/"
-curl="curl -Ls -X <METHOD> -H \"Authorization: Token 58114e78e6c3488247148a3e5c9e6fa462a9e4c9\""
+url = "http://localhost:8280/api/v1/views/views/"
+token = "58114e78e6c3488247148a3e5c9e6fa462a9e4c9"
+
+uri_prefix = "https://localhost/rdmo/"
+
+# curl="curl -Ls -X <METHOD> -H \"Authorization: Token 58114e78e6c3488247148a3e5c9e6fa462a9e4c9\""
