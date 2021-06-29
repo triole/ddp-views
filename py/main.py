@@ -20,4 +20,4 @@ if __name__ == '__main__':
         meta['title_it'] = conf.filename_to_title(fil)
         meta['template'] = read_file(fil)
 
-        req.put(meta)
+        req.post(meta)

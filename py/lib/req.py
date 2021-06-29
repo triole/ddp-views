@@ -17,13 +17,16 @@ class Req():
         req = requests.get(self.url, headers=self.headers)
         print(req.text)
 
-    def put(self, payload):
+    def post(self, payload):
         resp = requests.post(
             self.url, headers=self.headers, data=json.dumps(payload)
         )
         self.print_resp(payload, resp)
 
     def print_resp(self, payload, resp):
-        print('\n' + str(payload['id']) + ' ' + payload['uri'])
-        print('Response code: ' + str(resp.status_code))
-        print(resp.json())
+        print(
+            '\n' + str(resp.status_code) + ' ' +
+            payload['uri'] + ', view id ' + str(payload['id'])
+        )
+        for line in resp.json()['key']:
+            print(line)
