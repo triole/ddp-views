@@ -28,5 +28,4 @@ class Req():
             '\n' + str(resp.status_code) + ' ' +
             payload['uri'] + ', view id ' + str(payload['id'])
         )
-        for line in resp.json()['key']:
-            print(line)
+        print(resp.json())
